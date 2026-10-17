@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="225.0" prefWidth="212.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.orlando.poo1.SecondaryController">
+    <children>
+        <Label fx:id="lbl_stats" text="Estadisticas" />
+      <Label fx:id="lbl_prom" layoutX="30.0" layoutY="30.0" text="Promedio: " />
+      <Label fx:id="lbl_prAp" layoutX="32.0" layoutY="67.0" text="Porcentaje Aprobados: " />
+      <Label fx:id="lbl_prRp" layoutX="30.0" layoutY="104.0" text="Porcentaje Reprobados. " />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
